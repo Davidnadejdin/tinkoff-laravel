@@ -1,0 +1,29 @@
+{
+  "name": "davidnadejdin/tinkoff-laravel",
+  "description": "Laravel facade for tinkoff api client",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "davidnadejdin",
+      "email": "davidnadejdin@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Davidnadejdin\\LaravelTinkoff\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "laravel/framework": "~5.0|~6.0|~7.0|~8.0",
+    "davidnadejdin/tinkoff-php-client": "^1"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Davidnadejdin\\LaravelTinkoff\\TinkoffServiceProvider"
+      ]
+    }
+  }
+}
