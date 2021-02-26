@@ -1,4 +1,4 @@
-# alfabank-laravel
+# Tinkoff-laravel
 
 [![Latest Stable Version](https://poser.pugx.org/davidnadejdin/tinkoff-laravel/v/stable?format=plastic)](https://packagist.org/packages/davidnadejdin/tinkoff-laravel)
 [![Total Downloads](https://poser.pugx.org/davidnadejdin/tinkoff-laravel/downloads?format=plastic)](https://packagist.org/packages/davidnadejdin/tinkoff-laravel)
