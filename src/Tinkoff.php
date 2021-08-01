@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Facade;
 
 /**
  * @method static init(array $params)
+ * @method static charge(array $params)
  * @method static finishAuthorize(array $params)
  * @method static confirm(array $params)
  * @method static cancel(array $params)
