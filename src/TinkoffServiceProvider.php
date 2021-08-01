@@ -13,7 +13,7 @@ class TinkoffServiceProvider extends ServiceProvider
     {
         $this->mergeConfigFrom(
             __DIR__ . '/../config/tinkoff.php',
-            'alfabank'
+            'tinkoff'
         );
 
         App::bind('laraveltinkoff', static function () {
