@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'Terminal' => env('TINKOFF_TERMINAL'),
+    'TerminalKey' => env('TINKOFF_TERMINAL'),
     'Password' => env('TINKOFF_PASSWORD'),
 ];
